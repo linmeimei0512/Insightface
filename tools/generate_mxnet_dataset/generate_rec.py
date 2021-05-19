@@ -10,8 +10,8 @@ import mxnet as mx
 Default
 =============================
 '''
-datasets_images_dir = '../../../../Deep Learning/InsightFace/Python/Dataset/faces_emore_mask/images'
-output_path = '../../../../Deep Learning/InsightFace/Python/Dataset/faces_emore_mask/train.rec'
+datasets_images_dir = '../../../../Deep_Learning/InsightFace/Python/Dataset/faces_emore_mask/images'
+output_path = '../../../../Deep_Learning/InsightFace/Python/Dataset/faces_emore_mask/train.rec'
 image_size = '112,112'
 image_ext = 'jpg'
 

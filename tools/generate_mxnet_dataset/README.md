@@ -3,7 +3,44 @@
 
 ## Recent Update
 
+**`2021-05-19`**: Fix generate pairs.txt with generate_pairs.py. Use 10-fold cross-validation. See [here](generate_pairs.py).
+
 **`2021-05-06`**: First commit.
+
+
+
+## Content
+[Generate MXNet Use Dataset]()
+- [Generate .rec]()
+- [Generate pairs.txt]()
+- [Generate bin]()
+
+
+
+## Set Up
+
+| Python                    | 3.6       | 
+| :---                      | :---      |
+
+| Package                   | Version   | 
+| :---                      | :---      |
+| esaydict                  | 1.9       |
+| mxnet                     | 1.7.0.post2 |
+| psutil                    | 5.8.0     |
+
+
+### Create Python 
+```
+conda create -n Python3.6 python=3.6
+```
+ 
+### Install Python Package
+[requirements.txt](requirements.txt)
+```
+pip install -r requirements.txt
+```
+
+
 
 ## Generate .rec
 
@@ -73,7 +110,7 @@ usage: generate_bin.py [-h] [--pairs_txt_path PAIRS_TXT_PATH]
 Generate pin
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            show this help message and exit````
   --pairs_txt_path PAIRS_TXT_PATH
                         where is the pairs.txt.
   --output_bin_path OUTPUT_BIN_PATH
