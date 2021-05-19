@@ -11,9 +11,9 @@
 
 ## Content
 [Generate MXNet Use Dataset]()
-- [Generate .rec]()
-- [Generate pairs.txt]()
-- [Generate bin]()
+- [Generate .rec](#generate-.rec)
+- [Generate pairs.txt](#generate-pairs.txt)
+- [Generate bin](#generate-.bin)
 
 
 
@@ -22,10 +22,20 @@
 | Python                    | 3.6       | 
 | :---                      | :---      |
 
+#####CPU Version
 | Package                   | Version   | 
 | :---                      | :---      |
-| esaydict                  | 1.9       |
 | mxnet                     | 1.7.0.post2 |
+| numpy                     | 1.19.5    |
+| esaydict                  | 1.9       |
+| psutil                    | 5.8.0     |
+
+#####GPU Version (CUDA 10)
+| Package                   | Version   | 
+| :---                      | :---      |
+| mxnet-cu100               | 1.5.0     |
+| numpy                     | 1.19.5    |
+| esaydict                  | 1.9       |
 | psutil                    | 5.8.0     |
 
 
@@ -35,9 +45,16 @@ conda create -n Python3.6 python=3.6
 ```
  
 ### Install Python Package
+#####CPU Version
 [requirements.txt](requirements.txt)
 ```
 pip install -r requirements.txt
+```
+
+#####GPU Version (CUDA 10)
+[requirements-gpu.txt](requirements-gpu.txt)
+```
+pip install -r requirements-gpu.txt
 ```
 
 
