@@ -22,7 +22,7 @@
 | Python                    | 3.6       | 
 | :---                      | :---      |
 
-#####CPU Version
+#### CPU Version
 | Package                   | Version   | 
 | :---                      | :---      |
 | mxnet                     | 1.7.0.post2 |
@@ -30,7 +30,7 @@
 | esaydict                  | 1.9       |
 | psutil                    | 5.8.0     |
 
-#####GPU Version (CUDA 10)
+#### GPU Version (CUDA 10)
 | Package                   | Version   | 
 | :---                      | :---      |
 | mxnet-cu100               | 1.5.0     |
@@ -45,13 +45,13 @@ conda create -n Python3.6 python=3.6
 ```
  
 ### Install Python Package
-#####CPU Version
+#### CPU Version
 [requirements.txt](requirements.txt)
 ```
 pip install -r requirements.txt
 ```
 
-#####GPU Version (CUDA 10)
+#### GPU Version (CUDA 10)
 [requirements-gpu.txt](requirements-gpu.txt)
 ```
 pip install -r requirements-gpu.txt

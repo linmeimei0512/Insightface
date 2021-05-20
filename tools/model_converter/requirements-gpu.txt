@@ -1,0 +1,10 @@
+traceback2==1.4.0
+numpy==1.19.5
+opencv-python==4.5.2.52
+torchsummary==1.5.1
+pkg-resources1==0.0.7
+scipy==1.5.4
+onnx-tf==1.6.0
+onnxruntime==1.7.0
+tensorflow-gpu==2.4.1
+tensorflow_addons==0.12.1
