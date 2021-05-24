@@ -23,7 +23,7 @@
 #### CPU Version
 | Package                   | Version   | 
 | :---                      | :---      |
-| traceback2                | 1.4.0 |
+| traceback2                | 1.4.0     |
 | numpy                     | 1.19.5    |
 | opencv-python             | 4.5.2.52  |
 | torchsummary              | 1.5.1     |
@@ -37,7 +37,7 @@
 #### GPU Version (CUDA 10.1)
 | Package                   | Version   | 
 | :---                      | :---      |
-| traceback2                | 1.4.0 |
+| traceback2                | 1.4.0     |
 | numpy                     | 1.19.5    |
 | opencv-python             | 4.5.2.52  |
 | torchsummary              | 1.5.1     |
