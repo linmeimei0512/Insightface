@@ -61,7 +61,7 @@ pip install -r requirements-gpu.txt
 
 
 ## Download Model
-[Model-Zoo](../model_zoo/MODEL_ZOO.md)
+[Model-Zoo](../model_zoo/README.md)
 
 Copy model to ./model_zoo folder.
 
