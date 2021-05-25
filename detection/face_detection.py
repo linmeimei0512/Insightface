@@ -100,7 +100,10 @@ if __name__ == '__main__':
         mask_renderer = init_mask_renderer()
 
     print('\nDetect faces from ' + str(args.image_path) + '...')
-    image = cv2.imread('../images/initialize_image.jpg')
+    if not os.path.exists(args.image_path):
+        print(str(args.image_path) + ' is not exist.')
+        sys.exit()
+    image = cv2.imread(args.image_path)
 
     start_time = time.time()
     boxes, scores, points = face_detect(mtcnn, image)

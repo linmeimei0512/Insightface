@@ -30,10 +30,10 @@
 | esaydict                  | 1.9       |
 | psutil                    | 5.8.0     |
 
-#### GPU Version (CUDA 10)
+#### GPU Version (CUDA 10.1)
 | Package                   | Version   | 
 | :---                      | :---      |
-| mxnet-cu100               | 1.5.0     |
+| mxnet-cu101               | 1.5.0     |
 | numpy                     | 1.19.5    |
 | esaydict                  | 1.9       |
 | psutil                    | 5.8.0     |
