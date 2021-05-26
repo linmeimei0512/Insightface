@@ -11,7 +11,8 @@
 [Face Recognition]()
 - [Set up environment](#set-up)
 - [Download model](#download-model)
-- [Face recognition]()
+- [Face recognition](#face-recognition)
+- [Training](#training)
 
 
 

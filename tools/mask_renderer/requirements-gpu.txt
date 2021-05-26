@@ -1,0 +1,4 @@
+tqdm
+numpy
+requests
+mxnet-cu101==1.5.0

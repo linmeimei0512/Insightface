@@ -3,6 +3,8 @@
 
 ## Recent Update
 
+**`2021-05-25`**: Add mask renderer. [here](./tools/mask_renderer)
+
 **`2021-05-25`**: Add face recognition. [here](./recognition/arcface_torch)
 
 **`2021-05-24`**: Add model-zoo. [here](./model_zoo)
@@ -33,3 +35,5 @@
 - [PyTorch to ONNX](./tools/model_converter/pytorch_to_onnx_converter.py)
 - [ONNX to Tensorflow pb](./tools/model_converter/onnx_to_pb_converter.py)
 - [Tensorflow pb to Tensorflow Lite](./tools/model_converter/pb_to_tflite_converter.py)
+
+[Mask Renderer](./tools/mask_renderer)
