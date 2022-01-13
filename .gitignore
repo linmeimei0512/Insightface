@@ -1,2 +1,6 @@
 # Ignore everything
 *.pyc
+.idea/*
+msi/*
+images/*
+model_zoo/*

@@ -3,6 +3,8 @@
 
 ## Recent Update
 
+**`2022-01-13`**: Add face recognition - ONNX. Verify ONNX model. [here](./recognition/arcface_onnx)
+
 **`2021-05-25`**: Add mask renderer. [here](./tools/mask_renderer)
 
 **`2021-05-25`**: Add face recognition. [here](./recognition/arcface_torch)
@@ -26,6 +28,7 @@
 
 [Face Recognition](./recognition)
 - [Arcface-PyTorch](./recognition/arcface_torch)
+- [Arcface-OONX](./recognition/arcface_onnx)
 
 [Generate Datasets](./tools/generate_mxnet_dataset)
 - [Generate MXNet Datasets](./tools/generate_mxnet_dataset)
